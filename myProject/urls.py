@@ -7,5 +7,5 @@ urlpatterns = [
     # path('', views.index, name='index'),  # 新增路由映射
     path('', views.detail, name='detail'),
     path('addBook/', views.addBook, name='addBook'),
-    path('delBook/<int:book_id>', views.deteleBook, name='delBook')
+    path('delBook/<int:book_id>', views.deleteBook, name='delBook')
 ]
